@@ -1,0 +1,27 @@
+body{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.navbar{
+    background-color: #014543;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px;
+    padding: 2%;
+    display: flex;
+}
+#name{
+    font-size: 150%;
+}
+#nav-menu{
+    float: right !important;
+    position: absolute;
+    right: 0;
+    font-size: 120%;
+    margin: 0px 5% 0px 0px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
