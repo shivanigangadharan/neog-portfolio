@@ -21,7 +21,10 @@ body{
     margin: 0px 5% 0px 0px;
 
 }
-a{
+.nav-links{
     text-decoration: none;
     color: white;
+}
+.footer{
+    background: #179bbd;
 }
