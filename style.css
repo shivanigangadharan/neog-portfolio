@@ -1,17 +1,54 @@
+/* COMMON STYLES */
 body{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    cursor: pointer;
+}
+.button{
+display: block;
+padding: 1.5% 20px 1.5% 20px;
+border: 1px solid #8e45f5;
+border-radius: 0.5rem;
+width: fit-content;
+text-decoration: none;
+margin: 15px 0px 0px 0px;
+}
+.button-primary{
+ background: #6814de;
+ color: white;
+}
+.button-plain{
+    color: #6814de;
+    background: none;
+}
+h3{
+    font-weight: semi bold;
+    font-size: 1.5em;
+}
+.para{
+    text-align: left;
+    width: 600px;
 }
 
+/* FOOTER */
+.footer{
+    padding: 5%;
+    background: #8436f1;
+    text-align: center !important;
+    border-radius: 0px 15px 0px 0px;
+}
+
+
+/* NAVBAR */
 .navbar{
-    background-color: #014543;
+    background-color: #6814de;
     color: white;
-    border-radius: 10px;
+    border-radius: 0px 0px 0px 10px;
     box-shadow: 1px 1px 3px 1px;
     padding: 2%;
     display: flex;
-}
-#name{
-    font-size: 150%;
+
 }
 #nav-menu{
     float: right !important;
@@ -24,7 +61,35 @@ body{
 .nav-links{
     text-decoration: none;
     color: white;
+    margin: 0px 10px 0px 10px;
 }
-.footer{
-    background: #179bbd;
+
+
+/* INDEX.html styles */
+#name{
+    font-size: 150%;
+    font-weight: 600;
 }
+.card{
+    padding: 3%;
+    background: rgb(241, 241, 241);
+}
+
+
+
+/* PROJECTS.html styles */
+.main{
+    text-align: center;
+    align-items: center;
+
+}
+#code{
+    color: darkviolet;
+}
+.content-card{
+    text-align: left;
+    width: 50%;
+}
+
+
+/* BLOGS.html styles */
