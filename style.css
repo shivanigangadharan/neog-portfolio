@@ -12,7 +12,7 @@ border: 1px solid #8e45f5;
 border-radius: 0.5rem;
 width: fit-content;
 text-decoration: none;
-margin: 15px 0px 0px 0px;
+/* margin: 15px 0px 0px 0px; */
 }
 .button-primary{
  background: #6814de;
@@ -28,7 +28,7 @@ h3{
 }
 .para{
     text-align: left;
-    width: 600px;
+    max-width: 600px;
 }
 
 /* FOOTER */
@@ -80,15 +80,13 @@ h3{
 /* PROJECTS.html styles */
 .main{
     text-align: center;
-    align-items: center;
 
 }
-#code{
-    color: darkviolet;
-}
+
 .content-card{
     text-align: left;
-    width: 50%;
+    width: 600px;
+    margin: 5% 0px 5% 0px;
 }
 
 
