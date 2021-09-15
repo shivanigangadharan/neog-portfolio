@@ -73,6 +73,7 @@ h3{
 .card{
     padding: 3%;
     background: rgb(241, 241, 241);
+    line-height: 25px;
 }
 
 /* PROJECTS.html styles */
